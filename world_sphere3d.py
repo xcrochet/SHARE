@@ -62,7 +62,7 @@ def main():
 
     global texture_id
     texture_url = "2560px-Large_World_Topo_Map_2.png"
-    texture_id = load_texture("./img/2560px-Large_World_Topo_Map_2.png")
+    texture_id = load_texture("./2560px-Large_World_Topo_Map_2.png")
 
     while True:
         for event in pygame.event.get():
